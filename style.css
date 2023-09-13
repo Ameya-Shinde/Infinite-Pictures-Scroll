@@ -27,6 +27,7 @@ img{
     object-fit:fill;
     transition: .5s;
     box-shadow: 2px 2px 8px;
+    cursor: pointer;
 }
 
 img:hover{

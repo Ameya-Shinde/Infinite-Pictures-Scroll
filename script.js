@@ -18,6 +18,10 @@ async function getPhotos() {
             img.setAttribute("alt", photo.alt_description);
 
             item.appendChild(img);
+
+            img.addEventListener("click",()=>{
+                window.location.href = photo.links.html;
+            })
             imageContainer.appendChild(item);
         });
     } catch (error) {
